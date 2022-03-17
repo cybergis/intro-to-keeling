@@ -247,11 +247,17 @@ source ~/.bashrc
 
 `source` runs the script in the current shell, meaning any variables or functions will be available in your shell.
 
+( If this does not work then just restart your terminal )
+
 5. To check that the installation succeeded, use `conda --version`. Now you can use conda normally.
 
 6. To use your conda environment in a SLURM job, be sure to include the line `source ~/.bashrc` so that conda will be loaded. After that line, you can also activate any environments with `conda activate <environment>`.
 
 <hr id="resources">
+
+7. Run the following command in your terminal. It tells conda to also look on the conda-forge channel when you search for packages. Channels are basically servers for people to host packages on and the community-driven conda-forge is usually a good place to start when packages are not available via the standard channels.
+
+`conda config --append channels conda-forge`
 
 # Additional Resources
 
