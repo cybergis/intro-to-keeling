@@ -4,7 +4,7 @@ import time
 
 count_to = 1
 try:
-    _to = int(os.getenv("HOWHIGHTOCOUNT"))
+    count_to = int(os.getenv("HOWHIGHTOCOUNT"))
 except Exception as e:
     print(e)
 
