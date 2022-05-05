@@ -257,6 +257,11 @@ source ~/.bashrc
 
 6. To use your conda environment in a SLURM job, be sure to include the line `source ~/.bashrc` so that conda will be loaded. After that line, you can also activate any environments with `conda activate <environment>`.
 
+7. Run the following command in your terminal. It tells conda to also look on the conda-forge channel when you search for packages. Channels are basically servers for people to host packages on and the community-driven conda-forge is usually a good place to start when packages are not available via the standard channels.
+
+`conda config --append channels conda-forge`
+
+
 <hr id="data" />
 
 # Managing Data
@@ -266,8 +271,6 @@ We recommend that everything you can put in Github you do put in a repo, but not
 <hr id="data2keeling" />
 
 ## Getting Data to Keeling
-
-<hr id="datapermissions" />
 
 ### Simple Downloading with Wget
 
@@ -337,8 +340,6 @@ Saving to: 'hello.md'
 * [scp (command line)](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/) - Secure CoPy. We will discuss this a bit in [Getting Data off Keeling](#datafromkeeling)
 
 ## Basics of Permissions
-
-<hr id="datafromkeeling">
 
 ### Getting info on your Files (`ls -l`)
 
@@ -506,6 +507,9 @@ Then use `ls -l` to verify that the folder `test` has changed and `ls -l test/*`
 ```
 Use `ls -l` to verify that both the folder and test.txt have changed!
 
+
+<hr id="datafromkeeling">
+
 ## Getting Data off Keeling
 
 **Under Construction** TODO
@@ -513,10 +517,6 @@ Use `ls -l` to verify that both the folder and test.txt have changed!
 Talk about zip and scp.
 
 <hr id="resources">
-
-7. Run the following command in your terminal. It tells conda to also look on the conda-forge channel when you search for packages. Channels are basically servers for people to host packages on and the community-driven conda-forge is usually a good place to start when packages are not available via the standard channels.
-
-`conda config --append channels conda-forge`
 
 # Additional Resources
 
