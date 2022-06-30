@@ -50,11 +50,15 @@ For Windows users, there are a variety of options:
 
 Once connected to Keeling, you should be at your home directory. 
 
-* To Print the Working Directory, you can use `pwd`. You should see `/data/keeling/a/<YOUR NETID>`. 
-* To see what you have at your home directory, you can use `ls`.
-* The CyberGIS Center has a shared directory at `/data/cigi/common/`. To Change Directories use `cd`. Try `cd /data/cigi/common` and then list (`ls`) to see what's there.
-* To return to your home directory, you can always use `cd ~/`. `~/` is a shortcut for your home.
-* We also have a "scratch" directory (`/data/cigi/scratch`) which is a temporary working directory. Note that any data stored here may be lost or deleted without warning. To see what's there we can use `ls /data/cigi/scratch`.
+1. To Print the Working Directory, you can use `pwd`. You should see `/data/keeling/a/<YOUR NETID>`. 
+2. To see what you have at your home directory, you can use `ls`.
+3. The CyberGIS Center has a shared directory at `/data/cigi/common/`. To Change Directories use `cd`. Try `cd /data/cigi/common` and then list (`ls`) to see what's there.
+4. To return to your home directory, you can always use `cd ~/`. `~/` is a shortcut for your home.
+5. We also have a "scratch" directory (`/data/cigi/scratch`) which is a temporary working directory. Note that any data stored here may be lost or deleted without warning. To see what's there we can use `ls /data/cigi/scratch`.
+
+<hr />
+
+## Cloning this Repo
 
 Now, let's pull this Github repository to Keeling. First, we will configure git so they know who we are:
 

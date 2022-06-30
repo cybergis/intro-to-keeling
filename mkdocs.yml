@@ -8,7 +8,7 @@ theme:
 nav: 
   - Home: index.md
   - "SSH and Terminal Basics": ssh-terminal.md
-  - "Example Jobs": example-jobs.md
+  - "SLURM 101": slurm101.md
   - "Installing and Using Anaconda": conda.md
   - "Managing Data on Keeling": data.md
   - "Concepts, Resources, and FAQ": faq-resources.md

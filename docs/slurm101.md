@@ -1,6 +1,6 @@
-# Example Jobs
+# SLURM 101
 
-Now that you're acquainted with Keeling and have this repository downloaded, we can get some hands-on experience in running jobs in SLURM.
+Now that you're acquainted with Keeling and have this repository downloaded, we can get some hands-on experience in running jobs in SLURM. [SLURM](https://slurm.schedmd.com/overview.html) which formerly stands for Simple Linux Utility for Resource Management is a job scheduling system commonly used on High-Performance Computing (HPC) systems, including Keeling!
 
 ## Count.py Example
 
